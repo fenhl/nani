@@ -12,7 +12,8 @@ Options:
 """
 
 from docopt import docopt
+import subprocess
 
 if __name__ == '__main__':
-    arguments = docopt(__doc__, version='nani 0.1.0')
-    #TODO some actual functionality
+    arguments = docopt(__doc__, version='nani 0.2.0')
+    subprocess.call(['which', arguments['<command>']])
