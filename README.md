@@ -10,4 +10,8 @@ To run nani, you will need [docopt][].
 Usage
 =====
 
-Actual functionality is to be added.
+It is recommended that you move `nani.py` to your [`PATH`][PATH] and rename it to `nani`. Then, call `nani` from the command line, with the command you want to learn more about as its argument. For example:
+
+    nani nano
+
+[PATH]: http://en.wikipedia.org/wiki/PATH_(variable) (Wikipedia: PATH (variable))
