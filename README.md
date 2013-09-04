@@ -1,4 +1,4 @@
-**nani** is a Python 3 script that provides an information overview for a given command line tool.
+**nani** is a Python 3 script that provides an information overview for a given command line tool. It currently only calls `type`, but future versions will display more information, such as usage patterns or man pages.
 
 Requirements
 ============
