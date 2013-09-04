@@ -12,8 +12,10 @@ Options:
 """
 
 from docopt import docopt
+import sys
 import subprocess
 
 if __name__ == '__main__':
-    arguments = docopt(__doc__, version='nani 0.2.0')
-    subprocess.call(['which', arguments['<command>']])
+    arguments = docopt(__doc__, version='nani 0.3.0')
+    ret = subprocess.call(['type', arguments['<command>']])
+    sys.exit(ret)
